@@ -3,7 +3,7 @@ import re
 
 def evaluate_expression(expression):
     try:
-        # Use eval to evaluate the expression
+        # Use eval to evaluate the expressions
         # Security note: eval is dangerous if used with untrusted input
         result = eval(expression)
         return result
